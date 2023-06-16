@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid var(--main-color);
+  border-radius: 65px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.075em;
+  padding: 7px 30px;
+}
+
+input:placeholder {
+  color: var(--placeholder-color);
+}
+
+@media screen and (max-width: 768px) {
+  input {
+    background: #ffffff;
+    border: 1px solid var(--main-color);
+    border-radius: 65px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.075em;
+    padding: 5px 15px;
+  }
+}

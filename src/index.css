@@ -1,0 +1,12 @@
+:root {
+  --main-color: #2d2d2d;
+  --card-background-color: #f4f3f3;
+  --placeholder-color: rgba(45, 45, 45, 0.4);
+  --font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
