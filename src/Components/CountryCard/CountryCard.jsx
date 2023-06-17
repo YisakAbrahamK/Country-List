@@ -1,23 +1,23 @@
-import React from "react";
 import Styles from "./CountryCard.module.css";
 
-export default function CountryCard() {
+export default function CountryCard(props) {
   return (
     <>
       <div className={Styles.card}>
         <div className={Styles.flag}>
-          <img src="https://restcountries.eu/data/afg.svg" alt="flag" />
+          <img src={props.country.flags.png} alt="flag" />
         </div>
         <div className={Styles.details}>
-          <h2>Afghanistan</h2>
+          <h2>{props.country.name.common}</h2>
           <p>
-            <strong>Population:</strong> 27657145
+            <strong>Population:</strong>{" "}
+            {props.country.population.toLocaleString()}
           </p>
           <p>
-            <strong>Region:</strong> Asia
+            <strong>Region:</strong> {props.country.region}
           </p>
           <p>
-            <strong>Capital:</strong> Kabul
+            <strong>Capital:</strong> {props.country.capital}
           </p>
         </div>
       </div>

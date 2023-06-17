@@ -1,11 +1,25 @@
 .card {
   width: 372px;
-  height: 206px;
   background: var(--card-background-color);
   border-radius: 45px;
-  margin: 5px;
+  margin: 1rem;
+  padding: 20px;
+}
+
+.flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 20px;*/
+  border-radius: 45px 45px 0 0;
+  background-position: center;
+}
+
+.flag img {
+  width: 100px;
 }
 
 .details {
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
 }
