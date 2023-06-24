@@ -23,3 +23,8 @@
   padding-left: 20px;
   padding-top: 15px;
 }
+
+a {
+  text-decoration: none;
+  color: unset;
+}
